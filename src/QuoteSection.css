@@ -1,0 +1,20 @@
+.quote-section {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border: 5px solid #e8c173;
+  }
+
+  .quote-text {
+    margin-bottom: 5px;
+  }
+
+  .quote-author {
+    font-weight: bold;
+  }

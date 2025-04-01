@@ -12,7 +12,7 @@ const CardDisplay = () => {
           key={index}
           imageSrc={card.imageSrc}
           name={card.name}
-          description={card.description}
+          link={card.link}
         />
       ))}
     </div>

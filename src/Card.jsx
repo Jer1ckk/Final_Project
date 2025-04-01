@@ -1,15 +1,24 @@
-import React from 'react';
-import './Card.css'; // Ensure you have a separate CSS file for styles
+import React from "react";
+import "./Card.css"; // Ensure you have a separate CSS file for styles
 
-const Card = ({ imageSrc, name, description }) => {
+const Card = ({ imageSrc, name, link }) => {
+  const handleClick = () => {
+    console.log(`Card clicked: ${name} - ${link}`);
+  };
+
   return (
-    <div className="card">
+    <a
+      href={link}
+      className="card"
+      target="_blank"
+      rel="noopener noreferrer"
+      onClick={handleClick}
+    >
       <img className="card-image" src={imageSrc} alt={name} />
       <div className="card-description">
-        <h3>{name}</h3> {/* Display name */}
-        <p>{description}</p> {/* Display description */}
+        <h3>{name}</h3>
       </div>
-    </div>
+    </a>
   );
 };
 

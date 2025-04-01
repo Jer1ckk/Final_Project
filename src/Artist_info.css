@@ -1,0 +1,63 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+  }
+
+  .content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 900px; /* Ensures both containers have the same width */
+    height: 320px; /* Fixed height for uniformity */
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
+  .image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image {
+    width: 250px; /* Adjusted for consistency */
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+
+  .text-section {
+    flex: 1;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+  }
+
+  .author-details {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #777;
+  }
+
+  .author-name {
+    font-weight: bold;
+  }

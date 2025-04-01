@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Header() {
     return (
       <header>
@@ -5,15 +7,10 @@ function Header() {
         <nav>
           <ul className="Nav_bar">
             
-            <button className="custom-button" onClick={() => window.location.href = "/"}>Home</button>
-        
-        
-            <button className="custom-button" onClick={() => window.location.href = "/Gallery"}>Gallery Page</button>
-        
-            <button className="custom-button" onClick={() => window.location.href = "/info"}>Artist Info</button>
-        
-            <button className="custom-button" onClick={() => window.location.href = "/about"}>About Page</button>
-
+            <Link to="/"><button className="custom-button">Home</button></Link>
+            <Link to="/Gallery"><button className="custom-button">Gallery Page</button></Link>
+            <Link to="/info"><button className="custom-button">Artist Info</button></Link>
+            <Link to="/about"><button className="custom-button">About Page</button></Link>
           </ul>
         </nav>
       </header>

@@ -6,11 +6,7 @@ import Artist_info from "./Artist_info";
 function Info() {
   return (
     <>
-      <Header />
-
       <Artist_info />
-
-      <Footer />
     </>
   );
 }

@@ -5,7 +5,6 @@ import CardAboutUs from "./CardAboutUs";
 function About() {
   return (
     <>
-      <Header />
       <h1 className="about_us">About Our Website</h1>
       <div className="section2">
         <div className="left">
@@ -34,7 +33,6 @@ For us, art is a language without words. It inspires creativity, sparks imaginat
 and allows us to see the world through different perspectives. Through our painting 
 blog, we celebrate the power of art, offering a space where passion and creativity come to life.</p>
       </div>
-      <Footer />
     </>
   );
 }

@@ -10,7 +10,6 @@ import './index.css';
 function Gallery_Page() {
     return (
         <>
-            <Header />
             <div className="middle">
                 <img src={logo} alt="" className="pic3" />
                 <h1 className="most"> Most Famouse masterpieces </h1>
@@ -18,7 +17,6 @@ function Gallery_Page() {
             <CardDisplay />
             <QuoteSection />
             <ImageGallery />
-            <Footer />
         </>
     );
 

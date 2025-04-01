@@ -1,12 +1,14 @@
 import React from "react";
-import  Profile1 from "./pf1.jpg"; // Import your images
-import  Profile2 from "./pf2.jpg"; // Import your images
+import Profile1 from "./pf1.jpg"; // Import your images
+import Profile2 from "./pf2.jpg"; // Import your images
 import "./CardAboutUs.css"; // Import your CSS file
 
 const Card = ({ image, name }) => {
   return (
-    <div className="card">
-      <img src={image} alt={name} className="card-image" />
+    <div className="card-wrapper">
+      <div className="card">
+        <img src={image} alt={name} className="card-image" />
+      </div>
       <h3 className="card-name">{name}</h3>
     </div>
   );
@@ -21,4 +23,5 @@ function CardAboutUS() {
     </div>
   );
 }
+
 export default CardAboutUS;

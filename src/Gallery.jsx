@@ -15,7 +15,6 @@ function Gallery_Page() {
                 <img src={logo} alt="" className="pic" />
                 <h1 className="p1"> Most Famouse masterpieces </h1>
             </div>
-
             <CardDisplay />
             <QuoteSection />
             <ImageGallery />

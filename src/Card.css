@@ -1,6 +1,5 @@
 .gallery {
   display: flex;
-  gap: 25px; /* Space between cards */
   overflow-x: auto; /* Enable horizontal scrolling */
   scroll-snap-type: x mandatory;
   padding: 10px;

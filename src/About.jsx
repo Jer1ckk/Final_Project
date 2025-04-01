@@ -9,7 +9,7 @@ function About() {
       <h1 className="about_us">About Our Website</h1>
       <div className="section2">
         <div className="left">
-            <h1>Explore the World of Oil Painting</h1>
+            <h1 className="leftSide">Explore the World of Oil Painting</h1>
             <p>Our painting blog is a hub for artists, enthusiasts, and collectors to discover and appreciate the beauty of oil painting.
             We provide in-depth articles, tutorials, and galleries featuring stunning artworks. Each painting includes detailed insights
             about its artist, creation date, and artistic techniques, allowing visitors to learn and be inspired.
@@ -25,6 +25,15 @@ function About() {
       </div>
         <h1 className="about_us">Meet Our Team</h1>
         <CardAboutUs />
+      <div className="about_us2">
+        <p>Art is more than just colors on a canvas—it is a reflection of emotions, 
+history, and the human experience. It tells stories, evokes feelings, and 
+connects people across cultures and generations. Every brushstroke carries 
+intention, whether it’s an expression of joy, sorrow, or a deeper message waiting to be discovered.
+For us, art is a language without words. It inspires creativity, sparks imagination, 
+and allows us to see the world through different perspectives. Through our painting 
+blog, we celebrate the power of art, offering a space where passion and creativity come to life.</p>
+      </div>
       <Footer />
     </>
   );

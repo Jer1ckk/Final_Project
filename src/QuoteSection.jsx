@@ -12,13 +12,14 @@ const QuoteSection = () => {
       author: "TechCrunch",
     },
     {
-      text: "“The perfect addition to your travel gear.”",
-      author: "The Verge",
+      text: "“Art washes away from the soul the dust of everyday life.”",
+      author: "Pablo Picasso",
     },
     {
-      text: "“A must-have for every adventurer.”",
-      author: "Wired",
+      text: "“I dream my painting and I paint my dream.”",
+      author: "Vincent van Gogh",
     },
+    
   ];
 
   const [currentQuote, setCurrentQuote] = useState(quotes[0]);
@@ -30,7 +31,7 @@ const QuoteSection = () => {
         const nextIndex = (currentIndex + 1) % quotes.length;
         return quotes[nextIndex];
       });
-    }, 5000);
+    }, 100);
 
     return () => clearInterval(interval); // Clean up the interval on component unmount
   }, []);

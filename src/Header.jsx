@@ -1,21 +1,24 @@
-
-
 function Header() {
-    return(
-        <header>
-            <h1 class="head-title">Canvas Chronicles</h1>
-            <nav>
-                <ul class = "Nav_bar">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="./Gallery">Gellery Page</a></li>
-                    <li><a href="./info">Artist Info </a></li>
-                    <li><a href="/about">About Page </a></li>
-                </ul>
-            </nav>
-        </header>
+    return (
+      <header>
+        <h1 className="head-title">Canvas Chronicles</h1>
+        <nav>
+          <ul className="Nav_bar">
+            
+            <button className="custom-button" onClick={() => window.location.href = "/"}>Home</button>
+        
+        
+            <button className="custom-button" onClick={() => window.location.href = "/Gallery"}>Gallery Page</button>
+        
+            <button className="custom-button" onClick={() => window.location.href = "/info"}>Artist Info</button>
+        
+            <button className="custom-button" onClick={() => window.location.href = "/about"}>About Page</button>
 
-
+          </ul>
+        </nav>
+      </header>
     );
-}
-
-export default Header;
+  }
+  
+  export default Header;
+  

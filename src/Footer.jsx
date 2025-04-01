@@ -6,32 +6,27 @@ function Footer() {
       <div className="container">
         {/* Museum Info */}
         <div className="museum-info">
-          <h2>FRANS HALS MUSEUM</h2>
-          <p>Groot Heiligland 62, Haarlem</p>
-          <p>Dinsdag t/m zondag geopend van 11.00 - 17.00 uur</p>
-          <h3>LOCATIE HAL</h3>
-          <p>Grote Markt 16, Haarlem</p>
-          <p>Tijdelijke tentoonstellingen met moderne en hedendaagse kunst</p>
+          <h2>ABOUT US</h2>
+          <p>Canvas Chrnicles is a space dedicated to art lovers, </p>
+          <p>featuring timeless paintings, artist stories, and creative inspirations.</p>
+          <h2>OUR MISSION</h2>
+          <p>To bring the beauty of paintings closer to everyone by sharing insights, history, and techniques behind famous artworks.</p>
         </div>
 
         {/* Navigation */}
         <div className="navigation">
-          <h3>STEUN ONS</h3>
-          <ul>
-            <li><a href="#">NIEUWS</a></li>
-            <li><a href="#">WERKEN BIJ</a></li>
-            <li><a href="#">PERS</a></li>
-            <li><a href="#">WEBSHOP</a></li>
-            <li><a href="#">CONTACT</a></li>
-          </ul>
+          <h3>CONNECT WITH US</h3>
+          <p>FOLLOW US on social media for the latest updates.</p>
+          <p>JOIN OUR COMMUNITY and share your passion for painting.</p>
+          <p>CONTACT US for collaborations and inquiries.</p>
         </div>
 
         {/* Newsletter Signup */}
         <div className="newsletter">
-          <h3>BLIJF OP DE HOOGTE</h3>
-          <p>Meld je aan voor onze nieuwsbrief</p>
+          <h2>Login</h2>
+          <p>Be part of our community.</p>
           <input type="email" placeholder="voorbeeld@email.nl" />
-          <button>AANMELDEN</button>
+          <button>Sign up</button>
         </div>
       </div>
     </footer>

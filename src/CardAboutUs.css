@@ -33,3 +33,55 @@
   border-radius: 8px;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
 }
+
+.left{
+  background-color: bisque;
+}
+
+.right{
+  background-color: #e8c173;
+  border-radius: 20px;
+  
+}
+
+.left h1 ,.right h1{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.left p ,.right p{
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 20px;
+}  
+
+.leftSide{
+  display: flex;
+  justify-content: center;
+}
+
+.about_us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  font-size: 34px;
+}
+
+.about_us2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px auto; /* Centers the container horizontally */
+  width: 70%; /* Sets the width to 70% */
+  background-color: white; /* Sets background color to white */
+  font-size: 34px;
+  padding: 20px; /* Adds padding for better spacing */
+  border-radius: 10px; /* Optional: Adds rounded corners */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+

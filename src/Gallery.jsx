@@ -1,6 +1,6 @@
 import Header from "./Header";
 import Footer from "./Footer";
-import logo from './assets/Header_img.png'
+import logo from './bigImage2.jpg'
 import CardDisplay from "./CardDisplay";
 import ImageGallery from "./ImageGallery";
 import QuoteSection from "./QuoteSection";
@@ -12,8 +12,8 @@ function Gallery_Page() {
         <>
             <Header />
             <div className="middle">
-                <img src={logo} alt="" className="pic" />
-                <h1 className="p1"> Most Famouse masterpieces </h1>
+                <img src={logo} alt="" className="pic3" />
+                <h1 className="most"> Most Famouse masterpieces </h1>
             </div>
             <CardDisplay />
             <QuoteSection />
